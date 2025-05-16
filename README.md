@@ -1,14 +1,14 @@
 # ProyectoFinal-DataScience
 
-# ✈️ Predicción de Retrasos en Vuelos Domésticos en EE. UU.
+# Predicción de Retrasos en Vuelos Domésticos en EE. UU.
 
-## 📌 Problema a Resolver
+## Problema a Resolver
 
 El proyecto busca mejorar la experiencia del cliente en una plataforma de reservación de vuelos, anticipando si un vuelo será retrasado debido al clima. La solución consiste en desarrollar un modelo de machine learning que, con base en los datos disponibles antes del vuelo, prediga si el mismo sufrirá un retraso al salir o llegar a los aeropuertos más transitados de EE. UU.
 
 ---
 
-## 🗃️ Dataset Utilizado
+## Dataset Utilizado
 
 El dataset proviene del curso de AWS Academy’s Machine Learning Foundations. Contiene información sobre vuelos operados por aerolíneas comerciales de EE. UU. entre 2013 y 2018, reportados al Bureau of Transportation Statistics (BTS). Incluye:
 
@@ -20,9 +20,9 @@ El dataset proviene del curso de AWS Academy’s Machine Learning Foundations. C
 
 ---
 
-## 🤖 Modelo Final y Proceso
+## Modelo Final y Proceso
 
-### 🔄 Proceso de Modelado
+### Proceso de Modelado
 
 1. Se construyó un modelo **baseline** con todas las variables disponibles tras preprocesamiento, sin selección previa ni regularización. Este modelo obtuvo las mejores métricas de las primeras 3 iteraciones.
 2. Se desarrollaron 3 **iteraciones** adicionales aplicando técnicas de *feature selection* (IV, coeficientes, WoE), reduciendo el conjunto de variables.
@@ -30,7 +30,7 @@ El dataset proviene del curso de AWS Academy’s Machine Learning Foundations. C
 
 ---
 
-### 🧪 Modelo Final: Random Forest
+### Modelo Final: Random Forest
 
 - **Modelo:** `RandomForestClassifier` de `sklearn`
 - **Target:** `is_delay` (0: no retrasado, 1: retrasado)
@@ -42,7 +42,7 @@ El dataset proviene del curso de AWS Academy’s Machine Learning Foundations. C
   
 ---
 
-### 📊 Métricas del modelo final (Random Forest)
+### Métricas del modelo final (Random Forest)
 
 | Métrica    | Valor aproximado |
 |------------|------------------|
