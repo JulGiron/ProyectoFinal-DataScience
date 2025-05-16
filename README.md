@@ -51,3 +51,12 @@ El dataset proviene del curso de AWS Academy’s Machine Learning Foundations. C
 | Recall     | 🟩 Mayor al Modelo Baseline |
 | KS         | 🟩 Mayor al Modelo Baseline |
 
+
+---
+
+## Notas
+
+- Se compararon 4 modelos: baseline (logística), 3 iteraciones progresivas, y un modelo adicional con RandomForest.
+- El mejor desempeño se obtuvo con el modelo RandomForest, superando las métricas del baseline original.
+
+---
